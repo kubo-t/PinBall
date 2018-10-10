@@ -300,6 +300,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.628
       objectReference: {fileID: 0}
+    - target: {fileID: 114053229719070208, guid: 469a7cc1ec844764c90dab4266aa67eb,
+        type: 2}
+      propertyPath: score
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 469a7cc1ec844764c90dab4266aa67eb, type: 2}
   m_IsPrefabParent: 0
@@ -430,6 +435,11 @@ Prefab:
       propertyPath: m_Name
       value: LargeStarPrefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114242530754935498, guid: 0466e2629e2af43489d9479edbe79861,
+        type: 2}
+      propertyPath: score
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0466e2629e2af43489d9479edbe79861, type: 2}
   m_IsPrefabParent: 0
@@ -471,6 +481,11 @@ Prefab:
     - target: {fileID: 4671848100793720, guid: a3f599a4454c3b04e9d86b0986b396ba, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114101271528211558, guid: a3f599a4454c3b04e9d86b0986b396ba,
+        type: 2}
+      propertyPath: score
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3f599a4454c3b04e9d86b0986b396ba, type: 2}
@@ -702,7 +717,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 570527152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88a04a739a879d04fb244effae1e5e64, type: 3}
   m_Name: 
@@ -758,6 +773,11 @@ Prefab:
     - target: {fileID: 4723117501486738, guid: 469a7cc1ec844764c90dab4266aa67eb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.0730001
+      objectReference: {fileID: 0}
+    - target: {fileID: 114053229719070208, guid: 469a7cc1ec844764c90dab4266aa67eb,
+        type: 2}
+      propertyPath: score
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 469a7cc1ec844764c90dab4266aa67eb, type: 2}
@@ -1406,6 +1426,11 @@ Prefab:
       propertyPath: m_Name
       value: SmallStarPrefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114440989092415426, guid: 3fec40916be4af34d91552ca6a3d55a9,
+        type: 2}
+      propertyPath: score
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fec40916be4af34d91552ca6a3d55a9, type: 2}
   m_IsPrefabParent: 0
@@ -1542,6 +1567,11 @@ Prefab:
     - target: {fileID: 4917478993438412, guid: 0466e2629e2af43489d9479edbe79861, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114242530754935498, guid: 0466e2629e2af43489d9479edbe79861,
+        type: 2}
+      propertyPath: score
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0466e2629e2af43489d9479edbe79861, type: 2}
@@ -1923,6 +1953,11 @@ Prefab:
     - target: {fileID: 1790223625098006, guid: 3fec40916be4af34d91552ca6a3d55a9, type: 2}
       propertyPath: m_Name
       value: SmallStarPrefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114440989092415426, guid: 3fec40916be4af34d91552ca6a3d55a9,
+        type: 2}
+      propertyPath: score
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fec40916be4af34d91552ca6a3d55a9, type: 2}

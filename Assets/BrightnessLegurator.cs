@@ -8,6 +8,8 @@ public class BrightnessLegurator : MonoBehaviour {
 
 	public GameObject scoreText;
 
+	[SerializeField] private int score;
+
 	private float minEmission = 0.3f;
 	private float magEmission = 2.0f;
 
@@ -45,10 +47,7 @@ public class BrightnessLegurator : MonoBehaviour {
 	void OnCollisionEnter(Collision other){
 		this.degree = 100;
 
-		if(tag == "LargeCloudTag" || tag == "LargeStarTag"){
-			this.scoreText.GetComponent<ScoreController> ().score += 20;
-		}else if(tag == "SmallStarTag" || tag == "SmallCloudTag"){
-			this.scoreText.GetComponent<ScoreController> ().score += 10;
-		}
+		this.scoreText.GetComponent<ScoreController> ().score += this.score;
+		this.scoreText.GetComponent<ScoreController> ().ChangeScore ();
 	}
 }
